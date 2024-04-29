@@ -1,10 +1,10 @@
 <?php
-include 'theme/'.$theme.'/includes/head.php';
+include 'theme/'.$theme.'/head.php';
 ?>
 <body >
 <div id="page">
 <?php
-include 'theme/'.$theme.'/includes/nav.php';
+include 'theme/'.$theme.'/nav.php';
 ?>                    
                 <div id="content">
             <div class="main-content">
@@ -15,7 +15,7 @@ include 'theme/'.$theme.'/includes/nav.php';
         <a class="tophot">Phim đề cử</a>
     </h2>
 <?php
-include 'includes/0.php';
+include 'theme/'.$theme.'/0.php';
 ?>    
 </div>
                     <div class="clear"></div>
@@ -57,7 +57,7 @@ include 'theme/'.$theme.'/item.php';
             </div>
 <div class="right-content">
 <?php
-include 'includes/BXH.php';
+include 'theme/'.$theme.'/BXH.php';
 ?>    
 </div>
                     <div class="clear"></div>
@@ -65,5 +65,5 @@ include 'includes/BXH.php';
             </div>
         </div>
 <?php
-include 'includes/fot.php';
+include 'theme/'.$theme.'/fot.php';
 ?>

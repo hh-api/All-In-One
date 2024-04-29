@@ -36,9 +36,9 @@ $site_name = 'HiHiPhim';
 } elseif ($_SERVER['HTTP_HOST']=='metphim.top') {
 $theme = "motchill";
 $site_name = 'MẹtPhim';
-} elseif ($_SERVER['HTTP_HOST']=='animetm.net') {
-$theme = "anime";
-$site_name = 'Anime Thuyết Minh';
+} elseif ($_SERVER['HTTP_HOST']=='ophimmoi.top') {
+$theme = "phimmoi";
+$site_name = 'Phim Mới';
 }
 $title = $site_name.' | Xem Phim Online, Xem Phim Mới, Phim HD, Xem Phim Nhanh, Xem Phim Thuyết Minh, Lồng Tiếng';
 $description = $site_name.' là website xem phim trực tuyến miễn phí với tiêu chí cập nhật nhanh nhất, chính xác và chất lượng. Chúc các bạn có những giây phút xem phim vui vẻ!';

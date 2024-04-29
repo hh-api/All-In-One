@@ -1,5 +1,5 @@
 <?php
-include 'theme/'.$theme.'/includes/head.php';
+include 'theme/'.$theme.'/head.php';
 ?>
     <div id="body-wrap" class="container">
         <h1 style="display:none">Phim <?php echo $ten_phim; ?> - <?php echo $ten_goc; ?> (2023) Thuyết Minh, Vietsub HayChill</h1>
@@ -160,7 +160,7 @@ echo '<span><a style="min-width: 50px;text-align: center;" href="/'.$slug.'/tap-
             </div>
 
 <?php
-include 'theme/'.$theme.'/includes/zComment.php';
+include 'theme/'.$theme.'/zComment.php';
 ?>
 
             <div class="block" id="movie-update">
@@ -178,9 +178,9 @@ include 'theme/'.$theme.'/item.php';
             </div>
         </div>
 <?php
-include 'theme/'.$theme.'/includes/BXH.php';
+include 'theme/'.$theme.'/BXH.php';
 ?>
     </div>
 <?php
-include 'theme/'.$theme.'/includes/fot.php';
+include 'theme/'.$theme.'/fot.php';
 ?>

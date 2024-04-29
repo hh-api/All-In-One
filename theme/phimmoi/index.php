@@ -2,21 +2,21 @@
 <html>
 <head>
 <?php
-include 'theme/'.$theme.'/includes/head.php';
+include 'theme/'.$theme.'/head.php';
 ?>
     <title>PhimMoi.Net | Phim Hay | Xem Phim Nhanh | Xem Phim Online | Phim HD Vietsub Hay Nhất</title>
     <meta name="description" content="Xem phim mới miễn phí nhanh chất lượng cao. Xem Phim online Việt Sub, Thuyết minh, lồng tiếng chất lượng HD. Xem phim nhanh online chất lượng cao" />
     <meta property="og:title" content="Phim Mới | Phim Hay | Xem Phim Nhanh | Xem Phim Online | Phim HD Vietsub Hay Nhất" />
     <meta property="og:description" content="Xem phim mới miễn phí nhanh chất lượng cao. Xem Phim online Việt Sub, Thuyết minh, lồng tiếng chất lượng HD. Xem phim nhanh online chất lượng cao" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="8PhimMoi.Net" />
-    <meta property="og:url" content="http://8PhimMoi.net/" />
+    <meta property="og:site_name" content="oPhimMoi.top" />
+    <meta property="og:url" content="http://oPhimMoi.top/" />
 </head>
 
 <body>
  
 <?php
-include 'theme/'.$theme.'/includes/nav.php';
+include 'theme/'.$theme.'/nav.php';
 ?>
     
     <div class="clear"></div>
@@ -54,17 +54,17 @@ include 'includes/00.php';
                             <div class="clear"></div>
                             <h2 class="hidden">Phim Lẻ Mới</h2>
 <?php
-include 'includes/01.php';
+include 'theme/'.$theme.'/01.php';
 ?>
                             <div class="clear"></div>
                             <h2 class="hidden">Phim Bộ Mới</h2>
 <?php
-include 'includes/02.php';
+include 'theme/'.$theme.'/02.php';
 ?>                            
                             <div class="clear"></div>
                             <h2 class="hidden">Phim Bộ Full</h2>
 <?php
-include 'includes/03.php';
+include 'theme/'.$theme.'/03.php';
 ?>                            
                             <div class="clear"></div>
                         </div>
@@ -117,7 +117,7 @@ include 'theme/'.$theme.'/item.php';
             <!-- Sidebar -->
             <div class="col-lg-4 sidebar" id="sidebar">
 <?php
-include 'includes/BXH.php';
+include 'theme/'.$theme.'/BXH.php';
 ?>     
             </div>
             <div class="clear"></div>
@@ -128,5 +128,5 @@ include 'includes/BXH.php';
     </div>
 
 <?php
-include 'theme/'.$theme.'/includes/fot.php';
+include 'theme/'.$theme.'/fot.php';
 ?>

@@ -1,10 +1,10 @@
 <?php
-include 'theme/'.$theme.'/includes/head.php';
+include 'theme/'.$theme.'head.php';
 ?>
 <body >
 <div id="page">
 <?php
-include 'theme/'.$theme.'/includes/nav.php';
+include 'theme/'.$theme.'nav.php';
 ?>
                 <div id="content">
             <div class="main-content">
@@ -182,7 +182,7 @@ echo '<a '.$class.' href="/'.$slug.'/tap-'.$list_tap.'.html">'.$list_tap.'</a>';
     </div>
 
 <?php
-include 'theme/'.$theme.'/includes/zComment.php';
+include 'theme/'.$theme.'/zComment.php';
 ?>
 
     <div class="bottom-content">
@@ -193,7 +193,7 @@ include 'theme/'.$theme.'/includes/zComment.php';
                     <a href="javascript:void(0)">CÓ THỂ BẠN MUỐN XEM ?</a>
                 </h2>
 <?php
-include 'includes/0.php';
+include 'theme/'.$theme.'/0.php';
 ?> 
             </div>
         </div>
@@ -204,5 +204,5 @@ include 'includes/0.php';
         </div>
 <script> $(document).ready(function(){ $(this).scrollTop(200); });</script>
 <?php
-include 'theme/'.$theme.'/includes/fot.php';
+include 'theme/'.$theme.'/fot.php';
 ?>

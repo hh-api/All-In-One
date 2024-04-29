@@ -1,7 +1,7 @@
 <?php
 include 'databases.php';
 $email_admin = 'admin@gmail.com';
-$pass_admin = 'Zz123456789@@';
+$pass_admin = '123456789';
 if ($_SESSION['email'] == $email_admin) {
 echo '<script>location.href="/dashboard.php";</script>';    
 }

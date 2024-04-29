@@ -1,10 +1,10 @@
 <?php
-include 'theme/'.$theme.'/includes/head.php';
+include 'theme/'.$theme.'/head.php';
 ?>
 <body>
 <div id="page">
 <?php
-include 'theme/'.$theme.'/includes/nav.php';
+include 'theme/'.$theme.'/nav.php';
 ?>
                 <div id="content">
             <div class="main-content">
@@ -179,7 +179,7 @@ include 'theme/'.$theme.'/item.php';
     </div>
 <div class="right-content">
 <?php
-include 'theme/'.$theme.'/includes/BXH.php';
+include 'theme/'.$theme.'/BXH.php';
 ?>    
 </div>
                     <div class="clear"></div>
@@ -190,5 +190,5 @@ include 'theme/'.$theme.'/includes/BXH.php';
     <i class="fa fa-envelope-o"></i>
 </a>
 <?php
-include 'theme/'.$theme.'/includes/fot.php';
+include 'theme/'.$theme.'/fot.php';
 ?>

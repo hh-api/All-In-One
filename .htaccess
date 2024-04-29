@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^([^/]*)\.html$ /index.php?slug=$1 [L]
+RewriteRule ^([^/]*)/tap-([^/]*)\.html$ /index.php?slug=$1&tap=$2 [L]

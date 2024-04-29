@@ -1,7 +1,7 @@
 <?php
 session_start();
 error_reporting(E_ERROR | E_PARSE);
-$apizophim = mysqli_connect('localhost', 'xemchill_ad_hotphim', 'Zz031427484', 'xemchill_hotphim');
+$apizophim = mysqli_connect('localhost', 'user', 'pass', 'dataname');
 $apizophim -> set_charset("utf8");
 function curl($url){
 		$ch = @curl_init();

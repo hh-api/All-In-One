@@ -24,7 +24,7 @@ $thumb = str_replace('=s0', '=w400-rw', $qsql4['thumb']);
 </div>
 <div class="movie-meta">
 <div class="movie-title-1"><?php echo $ten_phim; ?></div><span class="movie-title-2"><?php echo $ten_goc; ?></span>
-<span class="movie-title-chap"><img style="width:20px !important;height:15px !important; min-height:10px;position:static;" src="/theme/phimmoi/css/<?php echo $quoc_gia; ?>.jpg"/> <?php echo $nam_chieu; ?></span>
+<span class="movie-title-chap"><img style="width:20px !important;height:15px !important; min-height:10px;position:static;" src="/theme/phimmoi/<?php echo $quoc_gia; ?>.jpg"/> <?php echo $nam_chieu; ?></span>
 <span style="float:right; font-size: 11px; margin-top:5px"><?php echo number_format($view, 0, '', '.'); ?> 💕</span>
 <span class="ribbon"><?php if ($bole == '2') { echo $thoi_luong.' '.$trang_thai; } elseif ((strpos($trang_thai, 'ull') == true)) { echo $trang_thai; } else { echo 'Tập '.$trang_thai; } ?></span>
 </div>

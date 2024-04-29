@@ -1,5 +1,5 @@
 <?php
-include 'theme/'.$theme.'/includes/head.php';
+include 'theme/'.$theme.'/head.php';
 ?>
     <div id="body-wrap" class="container">
         <div id="content">
@@ -175,9 +175,9 @@ include 'theme/'.$theme.'/item.php';
             </div>
         </div>
 <?php
-include 'theme/'.$theme.'/includes/BXH.php';
+include 'theme/'.$theme.'/BXH.php';
 ?>
     </div>
 <?php
-include 'theme/'.$theme.'/includes/fot.php';
+include 'theme/'.$theme.'/fot.php';
 ?>

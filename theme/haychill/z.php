@@ -1,5 +1,5 @@
 <?php
-include 'theme/'.$theme.'/includes/head.php';
+include 'theme/'.$theme.'/head.php';
 ?>
     <div id="body-wrap" class="container">
         <script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"<?php echo $domain; ?>/#person","name":"HayChill"},{"@type":"WebSite","@id":"<?php echo $domain; ?>/#website","url":"<?php echo $domain; ?>","name":"HayChill","publisher":{"@id":"<?php echo $domain; ?>/#person"},"inLanguage":"vi","potentialAction":{"@type":"SearchAction","target":"<?php echo $domain; ?>/search.php?s={search_term_string}","query-input":"required name=search_term_string"}},
@@ -56,9 +56,9 @@ include 'theme/'.$theme.'/item.php';
             </div>
         </div>
 <?php
-include 'theme/'.$theme.'/includes/BXH.php';
+include 'theme/'.$theme.'/BXH.php';
 ?> 
     </div>
 <?php
-include 'theme/'.$theme.'/includes/fot.php';
+include 'theme/'.$theme.'/fot.php';
 ?>
